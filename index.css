@@ -61,3 +61,41 @@ body{
    border-radius: 10px;
    cursor: pointer;
 }
+
+@media (max-width: 600px) {
+   .container {
+      margin: 5%;
+      width: 95%;
+   }
+
+   .container h1 {
+      font-size: 35px;
+   }
+
+   .display {
+      padding: 20px 15px;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .display input {
+      width: 100%;
+      font-size: 20px;
+      margin-bottom: 15px;
+   }
+
+   .display img {
+      align-self: flex-end;
+      width: 25px;
+   }
+
+   .container button {
+      width: 100%;
+      padding: 14px 20px;
+      font-size: 20px;
+   }
+
+   .container button img {
+      width: 24px;
+   }
+}
